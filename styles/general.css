@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1000;
+  background-color: var(--clr-dark-blue);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* Body */
+  font-family: "Open Sans", sans-serif;
+
+  /* Headings, Call-to-actions, Header Navigation */
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --clr-dark-blue: hsl(243, 87%, 12%);
+  --clr-desaturated-blue: hsl(238, 22%, 44%);
+
+  --clr-bright-blue: hsl(224, 93%, 58%);
+  --clr-moderate-cyan: hsl(170, 45%, 43%);
+
+  --clr-light-grayish-blue: hsl(240, 80%, 98%);
+  --clr-light-gray: hsl(0, 0%, 75%);
+}
